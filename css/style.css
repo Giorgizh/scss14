@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  position: sticky;
+  padding-left: 138px;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+}
+
+header img {
+  margin-bottom: -10px;
+}
+
+ul {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+H1 {
+  margin-top: 42px;
+  font-size: 28px;
+  margin-bottom: 27px;
+}
+
+main {
+  padding-left: 138px;
+}
+
+.widget {
+  display: inline-block;
+  color: #8a8787;
+  font-size: 20px;
+}
+
+.wida {
+  position: relative;
+}
+
+.img1 {
+  padding-right: 40px;
+  position: relative;
+  z-index: -1;
+}
+
+.p1 {
+  z-index: -1;
+  position: absolute;
+  top: 32px;
+  left: 41px;
+}
+
+.pic {
+  position: relative;
+  width: 362px;
+  height: 171px;
+  z-index: -1;
+  background-color: white;
+}
+
+.inp {
+  position: absolute;
+  font-size: 10px;
+  top: 68px;
+  left: 37px;
+}
+
+.timer {
+  position: absolute;
+  left: 40px;
+  top: 118px;
+  height: 18px;
+}
+
+.time {
+  position: absolute;
+  left: 67px;
+  top: 118px;
+  font-size: 13px;
+}
+
+.sectia {
+  align-items: center;
+  gap: 45px;
+  display: flex;
+  padding-bottom: 36px;
+}
+
+.images-left-side {
+  z-index: -1;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  gap: 42px;
+}
+
+.p2 {
+  position: absolute;
+  top: 203px;
+  left: 278px;
+  font-size: 20px;
+}
+
+.images-right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+footer {
+  padding-top: 60px;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1440px;
+  padding-bottom: 200px;
+  line-height: 40px;
+  height: 200px;
+  display: flex;
+  background-color: #243043;
+  color: #818687;
+}
+
+footer nav {
+  font-size: 15px;
+}
+
+footer p {
+  color: white;
+}
+
+footer img {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+}/*# sourceMappingURL=style.css.map */
